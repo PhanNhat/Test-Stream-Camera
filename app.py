@@ -31,7 +31,7 @@ def video():
 @app.route('/resetCam')
 def resetCam():
     print("camera is reseting")
-    os.system("sudo ls")
+    os.system("sudo reset")
     return render_template('resetPage.html')
 
 if __name__=="__main__":
